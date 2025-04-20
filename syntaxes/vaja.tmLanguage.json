@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "VAJA",
+	"scopeName": "source.vaja",
+	"patterns": [
+		{
+			"match": "\\b(var|fct|if|else|return)\\b",
+			"name": "keyword.control.vaja"
+		},
+		{
+			"match": "\\b(true|false)\\b",
+			"name": "constant.language.boolean.vaja"
+		},
+		{
+			"match": "\\b(sizeOf|removeFromArray|first|last|show|allButFirst|addToArray)\\b",
+			"name": "support.function.vaja"
+		},
+		{
+			"match": "<<",
+			"name": "keyword.operator.assignment.vaja"
+		},
+		{
+			"match": "[+\\-*/%!<>]=?|==|<<",
+			"name": "keyword.operator.vaja"
+		},
+		{
+			"match": "\\d+",
+			"name": "constant.numeric.vaja"
+		},
+		{
+			"match": "\".*?\"",
+			"name": "string.quoted.double.vaja"
+		}
+	]
+}
