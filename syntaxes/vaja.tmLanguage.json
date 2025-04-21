@@ -12,7 +12,7 @@
 			"name": "constant.language.boolean.vaja"
 		},
 		{
-			"match": "\\b(sizeOf|removeFromArray|first|last|show|allButFirst|addToArray)\\b",
+			"match": "\\b(sizeOf|removeFromArray|first|last|show|allButFirst|addToArray|input)\\b",
 			"name": "support.function.vaja"
 		},
 		{

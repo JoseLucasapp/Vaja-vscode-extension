@@ -35,6 +35,13 @@
         "scopeName": "source.vaja",
         "path": "./syntaxes/vaja.tmLanguage.json"
       }
+    ],
+    "iconThemes": [
+      {
+        "id": "vaja-icons",
+        "label": "VAJA Icons",
+        "path": "./icons/vaja-icon-theme.json"
+      }
     ]
   }
 }
