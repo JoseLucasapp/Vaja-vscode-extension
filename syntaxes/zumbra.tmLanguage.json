@@ -1,35 +1,35 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "VAJA",
-	"scopeName": "source.vaja",
+	"name": "ZUMBRA",
+	"scopeName": "source.zumbra",
 	"patterns": [
 		{
 			"match": "\\b(var|fct|if|else|return)\\b",
-			"name": "keyword.control.vaja"
+			"name": "keyword.control.zumbra"
 		},
 		{
 			"match": "\\b(true|false)\\b",
-			"name": "constant.language.boolean.vaja"
+			"name": "constant.language.boolean.zumbra"
 		},
 		{
 			"match": "\\b(sizeOf|removeFromArray|first|last|show|allButFirst|addToArray|input)\\b",
-			"name": "support.function.vaja"
+			"name": "support.function.zumbra"
 		},
 		{
 			"match": "<<",
-			"name": "keyword.operator.assignment.vaja"
+			"name": "keyword.operator.assignment.zumbra"
 		},
 		{
 			"match": "[+\\-*/%!<>]=?|==|<<",
-			"name": "keyword.operator.vaja"
+			"name": "keyword.operator.zumbra"
 		},
 		{
 			"match": "\\d+",
-			"name": "constant.numeric.vaja"
+			"name": "constant.numeric.zumbra"
 		},
 		{
 			"match": "\".*?\"",
-			"name": "string.quoted.double.vaja"
+			"name": "string.quoted.double.zumbra"
 		}
 	]
 }

@@ -1,6 +1,6 @@
-# VAJA Language Extension for VS Code
+# ZUMBRA Language Extension for VS Code
 
-This extension provides support for the VAJA programming language in Visual Studio Code.
+This extension provides support for the ZUMBRA programming language in Visual Studio Code.
 
 ## Features
 
@@ -12,9 +12,9 @@ This extension provides support for the VAJA programming language in Visual Stud
 
 1. Open VS Code.
 2. Go to the Extensions view (Ctrl+Shift+X).
-3. Search for "VAJA".
+3. Search for "ZUMBRA".
 4. Click "Install".
 
 ## Usage
 
-- Open a `.vaja` file to see syntax highlighting and other features.
+- Open a `.zum` file to see syntax highlighting and other features.

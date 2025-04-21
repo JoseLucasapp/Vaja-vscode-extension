@@ -1,0 +1,13 @@
+{
+    "iconDefinitions": {
+        "zumbra-icon": {
+            "iconPath": "./zumbra-icon.png"
+        }
+    },
+    "fileExtensions": {
+        "zumbra": "zumbra-icon"
+    },
+    "languageIds": {
+        "zumbra": "zumbra-icon"
+    }
+}

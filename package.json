@@ -1,13 +1,13 @@
 {
-  "name": "vaja-lang-support",
-  "displayName": "VAJA-LANG Support",
-  "description": "Syntax highlighting and support for the VAJA programming language",
+  "name": "zumbra-lang-support",
+  "displayName": "ZUMBRA-LANG Support",
+  "description": "Syntax highlighting and support for the ZUMBRA programming language",
   "version": "0.0.1",
   "publisher": "joselucasapp",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoseLucasapp/Vaja-vscode-extension"
+    "url": "https://github.com/JoseLucasapp/Zumbra-vscode-extension"
   },
   "engines": {
     "vscode": "^1.50.0"
@@ -18,29 +18,29 @@
   "contributes": {
     "languages": [
       {
-        "id": "vaja",
+        "id": "zumbra",
         "aliases": [
-          "VAJA",
-          "vaja"
+          "ZUMBRA",
+          "zumbra"
         ],
         "extensions": [
-          ".vaja"
+          ".zum"
         ],
         "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
       {
-        "language": "vaja",
-        "scopeName": "source.vaja",
-        "path": "./syntaxes/vaja.tmLanguage.json"
+        "language": "zumbra",
+        "scopeName": "source.zumbra",
+        "path": "./syntaxes/zumbra.tmLanguage.json"
       }
     ],
     "iconThemes": [
       {
-        "id": "vaja-icons",
-        "label": "VAJA Icons",
-        "path": "./icons/vaja-icon-theme.json"
+        "id": "zumbra-icons",
+        "label": "ZUMBRA Icons",
+        "path": "./icons/zumbra-icon-theme.json"
       }
     ]
   }
