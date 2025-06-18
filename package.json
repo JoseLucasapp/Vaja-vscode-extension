@@ -2,9 +2,9 @@
   "name": "zumbra-lang-support",
   "displayName": "ZUMBRA-LANG Support",
   "description": "Syntax highlighting and support for the ZUMBRA programming language",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "publisher": "joselucasapp",
-  "icon": "images/icon.png",
+  "icon": "images/zumbra-icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/JoseLucasapp/Zumbra-vscode-extension"

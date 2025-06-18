@@ -4,16 +4,24 @@
 	"scopeName": "source.zumbra",
 	"patterns": [
 		{
-			"match": "\\b(var|fct|if|else|return)\\b",
+			"match": "//.*",
+			"name": "comment.line.double-slash.zumbra"
+		},
+		{
+			"match": "\\b(var|fct|if|else|return|while)\\b",
 			"name": "keyword.control.zumbra"
 		},
 		{
-			"match": "\\b(true|false)\\b",
-			"name": "constant.language.boolean.zumbra"
+			"match": "\\b(addToArrayStart|addToArrayEnd|allButFirst|first|indexOf|last|max|min|organize|removeFromArray|sizeOf|sum|addToDict|deleteFromDict|dictKeys|dictValuesgetFromDict|date|dotenvLoad|dotenvGet|hashCode|get|html|registerRoute|server|serveFile|serveStatic|input|show|jwtCreateToken|jwtVerifyToken|sendEmail|sendWhatsapp|mysqlConnection|mysqlCreateTable|mysqlDeleteFromTable|mysqlDropTable|mysqlGetFromTable|mysqlInsertIntoTable|mysqlShowTables|mysqlShowTableColumns|mysqlUpdateIntoTable|bhaskara|randomFloat|randomInteger|json_parse|toBool|toFloat|toInt|toString|capitalize|removeWhiteSpaces|replace|toLowercase|toUppercase)\\b",
+			"name": "support.function.zumbra"
 		},
 		{
-			"match": "\\b(sizeOf|removeFromArray|first|last|show|allButFirst|addToArray|input)\\b",
-			"name": "support.function.zumbra"
+			"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b",
+			"name": "variable.other.readwrite.zumbra"
+		},
+		{
+			"match": "\\b(true|false|null)\\b",
+			"name": "constant.language.zumbra"
 		},
 		{
 			"match": "<<",
