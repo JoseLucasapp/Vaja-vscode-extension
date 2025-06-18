@@ -1,7 +1,7 @@
 {
     "iconDefinitions": {
         "zumbra-icon": {
-            "iconPath": "./zumbra-icon.png"
+            "iconPath": "./icon.png"
         }
     },
     "fileExtensions": {
